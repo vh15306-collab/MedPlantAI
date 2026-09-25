@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedPlant AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">🌿 MedPlant AI</div>
+
+        <nav>
+            <button onclick="showScreen('home')">Home</button>
+            <button onclick="showScreen('capture')">Detector</button>
+            <button onclick="showScreen('explorer')">
+    Explorer
+</button>
+            <button onclick="showScreen('about')">About</button>
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME SCREEN ================= -->
+
+    <section id="home" class="screen active">
+        <div class="hero">
+
+            <div class="hero-icon">🌿</div>
+
+            <p class="subtitle">AI-POWERED PLANT IDENTIFICATION</p>
+
+            <h1>
+                Medicinal Plant<br>
+                Detector
+            </h1>
+
+            <p class="description">
+                Identify medicinal plants using artificial intelligence.
+                Capture or upload a plant image and discover its information.
+            </p>
+
+            <button class="primary-btn" onclick="showScreen('capture')">
+                🌱 Start Identification
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CAPTURE SCREEN ================= -->
+
+    <section id="capture" class="screen">
+
+
+        <div class="page">
+
+            <p class="subtitle">STEP 1</p>
+
+            <h2>Capture Your Plant</h2>
+
+            <p class="description">
+                Take a photo of the plant or upload an existing image.
+            </p>
+
+
+            <div class="upload-card">
+
+                <div class="camera-icon">📷</div>
+
+                <h3>Choose Plant Image</h3>
+
+                <p>
+                    JPG, PNG or JPEG
+                </p>
+
+                <input
+                    type="file"
+                    id="image-input"
+                    accept="image/*"
+                    hidden
+                >
+
+                <button
+                    class="secondary-btn"
+                    onclick="document.getElementById('image-input').click()"
+                >
+                    📁 Upload Image
+                </button>
+
+                <button
+                    class="secondary-btn"
+                    onclick="openCamera()"
+                >
+                    📷 Use Camera
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PREVIEW SCREEN ================= -->
+
+    <section id="preview" class="screen">
+
+        <div class="page">
+
+            <p class="subtitle">STEP 2</p>
+
+            <h2>Check Your Image</h2>
+
+            <p class="description">
+                Make sure the plant is clearly visible.
+            </p>
+
+
+            <div class="preview-card">
+
+                <img
+                    id="preview-image"
+                    src=""
+                    alt="Plant Preview"
+                >
+
+            </div>
+
+
+            <div class="button-group">
+
+                <button
+                    class="secondary-btn"
+                    onclick="showScreen('capture')"
+                >
+                    ↩ Retake
+                </button>
+
+                <button
+                    class="primary-btn"
+                    onclick="analyzePlant()"
+                >
+                    🔍 Analyze Plant
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ANALYZING SCREEN ================= -->
+
+    <section id="analyzing" class="screen">
+
+        <div class="loading-page">
+
+            <div class="loader">🌿</div>
+
+            <h2>Analyzing Your Plant</h2>
+
+            <p>
+                Our AI is examining the image...
+            </p>
+
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RESULT SCREEN ================= -->
+
+    <section id="result" class="screen">
+
+        <div class="page">
+
+            <p class="subtitle">STEP 3</p>
+
+            <h2>Detection Result</h2>
+
+
+            <div class="result-card">
+
+                <img
+                    id="result-image"
+                    src=""
+                    alt="Detected Plant"
+                >
+
+
+                <div class="result-info">
+
+                    <p class="result-label">
+                        IDENTIFIED PLANT
+                    </p>
+
+                    <h1 id="plant-name">
+                        —
+                    </h1>
+
+                    <p class="scientific-name">
+                        <span id="scientific-name">
+                            —
+                        </span>
+                    </p>
+
+
+                    <div class="confidence">
+
+                        <div class="confidence-header">
+                            <span>AI Confidence</span>
+                            <span id="confidence">0%</span>
+                        </div>
+                        <p id="confidence-status" class="confidence-status">
+    🟢 High Confidence
+</p>
+
+                        <div class="confidence-bar">
+                            <div
+                                id="confidence-fill"
+                                class="confidence-fill"
+                            ></div>
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="primary-btn"
+                        onclick="showScreen('details')"
+                    >
+                        📖 View Plant Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DETAILS SCREEN ================= -->
+
+    <section id="details" class="screen">
+
+        <div class="page">
+
+            <p class="subtitle">PLANT INFORMATION</p>
+
+            <h2 id="details-name">
+                Plant Details
+            </h2>
+
+
+            <div class="details-card">
+                <img
+    id="details-image"
+    src=""
+    alt="Plant Image"
+    class="details-plant-image"
+>
+
+                <h3>🌿 Scientific Name</h3>
+
+                <p id="details-scientific">
+                    —
+                </p>
+                <h3>🌱 Plant Overview</h3>
+                <p id="plant-overview">—</p>
+
+
+                <h3>💊 Medicinal Uses</h3>
+
+                <p id="medicinal-uses">
+                    —
+                </p>
+
+
+                <h3>ℹ️ Description</h3>
+
+                <p id="plant-description">
+                    This information will be provided
+                    after the plant is identified.
+                </p>
+
+            </div>
+
+
+            <button
+                class="primary-btn"
+                onclick="startAgain()"
+            >
+                🔄 Scan Another Plant
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT SCREEN ================= -->
+
+    <section id="about" class="screen">
+
+    <div class="page">
+
+        <p class="subtitle">ABOUT THE PROJECT</p>
+
+        <h2>About MedPlant AI</h2>
+
+        <div class="details-card">
+
+            <p>
+                MedPlant AI is a mini project designed to
+                identify medicinal plants from images using
+                artificial intelligence.
+            </p>
+
+            <p>
+                Users can capture or upload a plant image,
+                analyze it using an AI model and view
+                information about the identified plant.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ===============================
+     PLANT EXPLORER
+================================ -->
+
+<section id="explorer" class="screen">
+
+    <div class="page">
+
+        <p class="subtitle">EXPLORE THE COLLECTION</p>
+
+        <h2>🌿 Plant Explorer</h2>
+
+        <p class="section-description">
+            Explore medicinal plants available in the MedPlant AI database.
+        </p>
+
+        <div class="explorer-search">
+            <input
+                type="text"
+                id="plant-search"
+                placeholder="🔍 Search for a plant..."
+                autocomplete="off"
+            >
+        </div>
+
+        <div id="plant-grid" class="plant-grid"></div>
+
+    </div>
+
+</section>
+
+        
+
+            <section id="about" class="screen">
+
+    <div class="page">
+
+        <p class="subtitle">ABOUT THE PROJECT</p>
+
+        <h2>About MedPlant AI</h2>
+
+        <div class="details-card">
+
+            <p>
+                MedPlant AI is a mini project designed to
+                identify medicinal plants from images using
+                artificial intelligence.
+            </p>
+
+            <p>
+                Users can capture or upload a plant image,
+                analyze it using an AI model and view
+                information about the identified plant.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
