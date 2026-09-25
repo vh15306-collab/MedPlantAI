@@ -110,12 +110,10 @@ def predict():
 # ==========================================
 
 if __name__ == "__main__":
+    import os
+
     app.run(
         host="0.0.0.0",
-        port=5000,
-        debug=True,
-        ssl_context=(
-            "10.195.89.120+2.pem",
-            "10.195.89.120+2-key.pem"
-        )
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False
     )
