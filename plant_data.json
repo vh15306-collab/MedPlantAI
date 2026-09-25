@@ -1,0 +1,402 @@
+{
+    "Aloevera": {
+        "scientific": "Aloe barbadensis miller",
+        "uses": "Traditionally used in skin-care and herbal preparations. The leaf gel is also commonly used in household and cosmetic preparations.",
+        "description": "Aloe vera is a succulent plant with thick, fleshy leaves that contain clear gel. It is commonly grown in warm climates and home gardens."
+    },
+    "Amla": {
+        "scientific": "Phyllanthus emblica",
+        "uses": "Amla fruit is widely eaten and used in traditional Ayurvedic preparations. It is also commonly used in food products such as preserves, drinks and powders.",
+        "description": "Amla is a small to medium-sized tree that produces round greenish-yellow fruits. The fruit has a sour taste and is widely used in Indian food and traditional practices."
+    },
+    "Amruthaballi": {
+        "scientific": "Tinospora cordifolia",
+        "uses": "Traditionally used in Ayurvedic and herbal practices. Different parts of the plant have been used traditionally in herbal preparations.",
+        "description": "Amruthaballi, also known as Giloy, is a climbing vine with heart-shaped leaves. It commonly grows on trees and other supports in warm regions."
+    },
+    "Arali": {
+        "scientific": "Ficus religiosa",
+        "uses": "Traditionally used in Indian herbal practices. The tree also has important cultural and environmental value.",
+        "description": "Arali, identified in the dataset as Ficus religiosa, is a large tree with heart-shaped leaves and a long, spreading growth habit. It is commonly associated with South Asian landscapes and cultural settings."
+    },
+    "ashoka": {
+        "scientific": "Saraca asoca",
+        "uses": "Traditionally used in Ayurvedic and herbal practices. The bark and other plant parts have been used in traditional preparations.",
+        "description": "Ashoka is a tropical tree known for its attractive clusters of orange to reddish flowers. It has compound leaves and is commonly grown in warm parts of India."
+    },
+    "Astma_weed": {
+        "scientific": "Euphorbia hirta",
+        "uses": "The plant has a history of traditional herbal use, particularly in traditional preparations for respiratory complaints. These are traditional uses and should not be treated as a substitute for medical care.",
+        "description": "Asthma weed is a small herbaceous plant that commonly grows in tropical and subtropical areas. It has small leaves and inconspicuous flowers."
+    },
+    "Badipala": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "Traditional uses vary by region, but the supplied dataset source does not document specific medicinal uses. The botanical identity should be verified before adding species-specific health information.",
+        "description": "Badipala is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide enough information to confidently identify its botanical species."
+    },
+    "Balloon_Vine": {
+        "scientific": "Cardiospermum halicacabum",
+        "uses": "Traditionally used in various herbal practices. Different parts of the plant have been used in regional traditional preparations.",
+        "description": "Balloon vine is a climbing plant with delicate leaves and distinctive inflated seed capsules. It grows in warm regions and can spread over nearby vegetation."
+    },
+    "Bamboo": {
+        "scientific": "Bambusoideae",
+        "uses": "Bamboo is widely used for food, construction, crafts and other everyday materials. Some bamboo species also have traditional uses.",
+        "description": "Bamboo refers to a group of fast-growing grasses with jointed stems. Depending on the species, bamboo can range from small plants to tall woody stems."
+    },
+    "Beans": {
+        "scientific": "Phaseolus",
+        "uses": "Beans are commonly consumed as food and provide dietary nutrients. Different bean varieties are also used in traditional and regional cuisines.",
+        "description": "Bean plants are legumes that produce pods containing edible seeds. They are cultivated widely as food crops."
+    },
+    "Betel": {
+        "scientific": "Piper betle",
+        "uses": "Betel leaves are traditionally used in South Asian culinary and cultural practices. They have also been used in regional herbal preparations.",
+        "description": "Betel is a climbing vine with glossy, heart-shaped aromatic leaves. It is commonly grown in warm and humid regions."
+    },
+    "Bhrami": {
+        "scientific": "Bacopa monnieri",
+        "uses": "Traditionally used in Ayurvedic and herbal practices. Brahmi is especially known in traditional preparations associated with memory and general wellness; these are traditional uses, not medical advice.",
+        "description": "Brahmi is a small creeping herb that usually grows in moist environments. It has small fleshy leaves and spreads along the ground."
+    },
+    "Bringaraja": {
+        "scientific": "Eclipta prostrata",
+        "uses": "Traditionally used in Ayurvedic and herbal practices, including traditional hair preparations. Leaves and aerial parts have been used in regional herbal formulations.",
+        "description": "Bringaraja is a small herb with narrow leaves and small white flower heads. It commonly grows in moist or disturbed areas."
+    },
+    "camphor": {
+        "scientific": "Cinnamomum camphora",
+        "uses": "Traditionally valued for its strong aromatic properties in household and herbal preparations. Camphor products should be used only as directed because concentrated camphor can be harmful if misused.",
+        "description": "Camphor tree is an evergreen tree with aromatic leaves and wood. The characteristic camphor compound is obtained from certain parts of the tree."
+    },
+    "Caricature": {
+        "scientific": "Graptophyllum pictum",
+        "uses": "Traditionally used in some regional herbal practices. It is also widely grown as an ornamental plant for its attractive foliage.",
+        "description": "Caricature plant is an ornamental shrub with broad leaves that may have distinctive purple or green patterns. It is commonly grown in tropical gardens."
+    },
+    "Castor": {
+        "scientific": "Ricinus communis",
+        "uses": "Castor seeds are processed to produce castor oil for traditional and commercial uses. Raw castor seeds are poisonous and should never be consumed.",
+        "description": "Castor is a fast-growing plant with large palmate leaves and spiny seed capsules. Its seeds contain oil that is processed for several commercial purposes."
+    },
+    "Catharanthus": {
+        "scientific": "Catharanthus roseus",
+        "uses": "The plant is important in pharmaceutical research because it contains naturally occurring alkaloids. Its compounds have been studied extensively in medicine, but the plant should not be self-used as a treatment.",
+        "description": "Catharanthus roseus is a flowering plant commonly known as Madagascar periwinkle. It has glossy leaves and flowers that may be pink, white or purple."
+    },
+    "Chakte": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "The supplied dataset source does not document specific medicinal uses for this class. Its botanical identity and regional uses should be verified before adding species-specific information.",
+        "description": "Chakte is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide enough information to confidently identify its botanical species."
+    },
+    "Chilly": {
+        "scientific": "Capsicum frutescens",
+        "uses": "Chilli is widely used as food and as a traditional spice. It is commonly included in sauces, pickles, curries and other dishes.",
+        "description": "Chilli is a pepper plant that produces pungent fruits containing capsaicin. The fruits vary widely in size, shape and heat level."
+    },
+    "Citron lime (herelikai)": {
+        "scientific": "Citrus medica",
+        "uses": "Citron is used as food and in traditional culinary practices. Its fragrant rind is also used in preserves, flavoring and regional preparations.",
+        "description": "Citron is a citrus plant known for its large aromatic fruit and thick rind. It is grown in warm climates and is related to other cultivated citrus plants."
+    },
+    "Coffee": {
+        "scientific": "Coffea",
+        "uses": "Coffee seeds are widely processed into a beverage containing naturally occurring caffeine. Coffee is also an important agricultural and commercial crop.",
+        "description": "Coffee is an evergreen shrub or small tree that produces berries containing coffee seeds. The seeds are processed and roasted to make coffee."
+    },
+    "Common rue(naagdalli)": {
+        "scientific": "Ruta graveolens",
+        "uses": "Rue has a history of traditional herbal use. Because concentrated preparations can be unsafe, it should not be used medicinally without appropriate expert guidance.",
+        "description": "Common rue is an aromatic perennial herb with blue-green leaves and small yellow flowers. It has a strong characteristic smell."
+    },
+    "Coriender": {
+        "scientific": "Coriandrum sativum",
+        "uses": "Coriander is widely used as a culinary herb and spice. It also has a long history of use in traditional food and herbal practices.",
+        "description": "Coriander is an aromatic annual herb with delicate leaves and small flowers. Both its leaves and dried seeds are commonly used in cooking."
+    },
+    "Curry": {
+        "scientific": "Murraya koenigii",
+        "uses": "Curry leaves are widely used in Indian cooking and traditional herbal practices. Fresh leaves are commonly added to curries, chutneys and tempering.",
+        "description": "The curry leaf plant is a small tree with aromatic pinnate leaves. Its leaves are widely recognized as an important ingredient in South Indian cooking."
+    },
+    "Doddpathre": {
+        "scientific": "Coleus amboinicus",
+        "uses": "Traditionally used as an aromatic culinary herb and in regional herbal preparations. The leaves are also valued for their strong fragrance.",
+        "description": "Doddpathre is an aromatic succulent herb with thick, soft leaves. It is commonly grown around homes in warm regions."
+    },
+    "Drumstick": {
+        "scientific": "Moringa oleifera",
+        "uses": "Moringa leaves and pods are widely consumed as food and have traditional uses. The plant is also valued as a nutrient-rich food crop.",
+        "description": "Drumstick, or moringa, is a fast-growing tree with compound leaves and long slender pods. Its leaves, flowers and pods are commonly used as food."
+    },
+    "Ekka": {
+        "scientific": "Calotropis gigantea",
+        "uses": "Calotropis has a history of traditional use in some regional practices. Some plant parts and latex can be toxic, so medicinal use requires expert guidance.",
+        "description": "Ekka is a flowering shrub with large leaves and distinctive waxy flowers. It produces milky latex when its tissues are damaged."
+    },
+    "Eucalyptus": {
+        "scientific": "Eucalyptus globulus",
+        "uses": "Eucalyptus is traditionally used for its aromatic properties. Leaves and essential oils are used in some household and herbal products, but concentrated oils require careful handling.",
+        "description": "Eucalyptus is an evergreen tree known for its strongly aromatic leaves. Many species grow rapidly and are cultivated in warm and temperate regions."
+    },
+    "Ganigale": {
+        "scientific": "Calotropis gigantea",
+        "uses": "Ganigale has a history of traditional use in regional practices. Some plant parts and latex can be toxic, so it should not be used medicinally without expert guidance.",
+        "description": "Ganigale is a tropical flowering shrub identified in the supplied data as Calotropis gigantea. It has broad leaves and produces milky latex."
+    },
+    "Ganike": {
+        "scientific": "Solanum nigrum",
+        "uses": "The plant has a history of traditional use in some herbal systems. Some parts may be toxic depending on the plant stage and preparation, so medicinal use requires expert guidance.",
+        "description": "Ganike is a small herbaceous plant with small flowers and dark berries. It commonly grows in fields, gardens and disturbed areas."
+    },
+    "Gasagase": {
+        "scientific": "Papaver somniferum",
+        "uses": "Poppy seeds are used in cooking and traditional food preparations. Other parts of the plant contain regulated alkaloids and should not be used as home remedies.",
+        "description": "Gasagase is identified in the supplied data as a poppy plant with flowers and seed capsules. Poppy seeds are commonly used as a food ingredient."
+    },
+    "Ginger": {
+        "scientific": "Zingiber officinale",
+        "uses": "Ginger is widely used as a spice and has a long history of traditional use. It is commonly added to food, tea and other preparations.",
+        "description": "Ginger is a perennial herb whose underground rhizome is widely used. The rhizome has a strong aroma and a warm, spicy taste."
+    },
+    "Globe Amarnath": {
+        "scientific": "Gomphrena globosa",
+        "uses": "Traditionally used in some herbal practices and widely grown as an ornamental plant. The dried flower heads are also used in decorative arrangements.",
+        "description": "Globe amaranth is a flowering plant recognized by its rounded flower heads, which may be purple, pink or white. It is commonly grown as an ornamental plant."
+    },
+    "Guava": {
+        "scientific": "Psidium guajava",
+        "uses": "Guava fruit is widely consumed as food, while leaves have traditional uses. The fruit is commonly eaten fresh or used in juices, jams and other foods.",
+        "description": "Guava is a tropical fruit tree with oval leaves, pale flowers and edible fruits. The fruit usually has a fragrant aroma and may contain many small seeds."
+    },
+    "Henna": {
+        "scientific": "Lawsonia inermis",
+        "uses": "Henna leaves are traditionally used as a natural dye for skin, hair and textiles. Henna is also important in cultural and decorative practices.",
+        "description": "Henna is a flowering shrub whose leaves contain natural coloring compounds. It grows well in hot, dry climates."
+    },
+    "Hibiscus": {
+        "scientific": "Hibiscus rosa-sinensis",
+        "uses": "Hibiscus has traditional uses in several cultures and is also widely grown as an ornamental plant. Flowers and leaves are used in some traditional food and herbal preparations.",
+        "description": "Hibiscus is a flowering shrub with large colorful flowers and glossy leaves. It is widely cultivated in tropical and subtropical gardens."
+    },
+    "Honge": {
+        "scientific": "Millettia pinnata",
+        "uses": "Honge has traditional uses and is valued for its seeds and oil. The oil is also studied and used for non-food applications such as biofuel and other products.",
+        "description": "Honge is a tropical tree with compound leaves and clusters of flowers. Its seeds contain oil and the tree is valued for several practical uses."
+    },
+    "Insulin": {
+        "scientific": "Costus igneus",
+        "uses": "Traditionally used in some herbal practices. Claims about blood-sugar effects should not be treated as established medical treatment, and medical conditions require professional care.",
+        "description": "The insulin plant is a tropical perennial with broad leaves and upright stems. It is commonly grown as an ornamental and herbal plant."
+    },
+    "Jackfruit": {
+        "scientific": "Artocarpus heterophyllus",
+        "uses": "Jackfruit is widely consumed as food, and its seeds are also eaten after cooking. Different plant parts have additional traditional uses in some regions.",
+        "description": "Jackfruit is a large tropical tree that produces very large fruits directly from the trunk and branches. The fruit contains sweet edible sections surrounding seeds."
+    },
+    "Jasmine": {
+        "scientific": "Jasminum",
+        "uses": "Jasmine flowers are widely used for fragrance, garlands and traditional cultural practices. Some species are also used in regional herbal preparations.",
+        "description": "Jasmine refers to flowering plants known for their highly fragrant flowers. Many jasmine species are grown in warm climates as garden and ornamental plants."
+    },
+    "kamakasturi": {
+        "scientific": "Ocimum basilicum",
+        "uses": "Basil is widely used as a culinary herb and has traditional herbal uses. The leaves are commonly used fresh or dried for flavor and aroma.",
+        "description": "Kamakasturi is an aromatic basil-type herb with fragrant leaves. It is commonly grown in warm climates and used as a culinary or herbal plant."
+    },
+    "Kambajala": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "The supplied dataset source does not document specific medicinal uses for this class. Its botanical identity and regional uses should be verified before adding species-specific health information.",
+        "description": "Kambajala is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide enough information to confidently identify its botanical species."
+    },
+    "Kasambruga": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "The supplied dataset source does not document specific medicinal uses for this class. Its botanical identity and regional uses should be verified before adding species-specific health information.",
+        "description": "Kasambruga is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide a botanical name for this class."
+    },
+    "kepala": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "The supplied dataset source does not document specific medicinal uses for this class. Its botanical identity and regional uses should be verified before adding species-specific health information.",
+        "description": "Kepala is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide a botanical name for this class."
+    },
+    "Kohlrabi": {
+        "scientific": "Brassica oleracea Gongylodes",
+        "uses": "Kohlrabi is primarily consumed as a vegetable. The swollen stem is commonly eaten raw or cooked in different dishes.",
+        "description": "Kohlrabi is a vegetable crop with a swollen edible stem that grows above the soil. It also produces leafy greens that can be eaten."
+    },
+    "Lantana": {
+        "scientific": "Lantana camara",
+        "uses": "Lantana has a history of traditional use in some regions, but parts of the plant can be toxic. It should not be used medicinally without expert guidance.",
+        "description": "Lantana camara is a flowering shrub with clusters of small colorful flowers. It grows readily in warm regions and can spread aggressively."
+    },
+    "Lemon": {
+        "scientific": "Citrus limon",
+        "uses": "Lemon is widely used as food, flavoring and in traditional household practices. Juice and zest are commonly used in drinks, cooking and preserves.",
+        "description": "Lemon is a citrus tree producing aromatic yellow fruits with acidic juice. The tree has glossy leaves and fragrant white flowers."
+    },
+    "Lemongrass": {
+        "scientific": "Cymbopogon citratus",
+        "uses": "Lemongrass is widely used as a culinary herb and aromatic plant. It is commonly used in teas, soups, curries and other foods.",
+        "description": "Lemongrass is a grass with long narrow leaves and a strong lemon-like aroma. It forms dense clumps and grows well in warm climates."
+    },
+    "Malabar_Nut": {
+        "scientific": "Justicia adhatoda",
+        "uses": "Traditionally used in Ayurvedic and herbal practices. The leaves have a history of use in traditional herbal preparations.",
+        "description": "Malabar nut is a shrub with elongated leaves and distinctive flowers. It is commonly found in warm parts of South Asia."
+    },
+    "Malabar_Spinach": {
+        "scientific": "Basella alba",
+        "uses": "Malabar spinach is commonly consumed as a leafy vegetable. The leaves and young stems are used in soups, curries and other dishes.",
+        "description": "Malabar spinach is a climbing plant with thick, fleshy green leaves and soft stems. Despite its name, it is botanically different from common spinach."
+    },
+    "Mango": {
+        "scientific": "Mangifera indica",
+        "uses": "Mango fruit is widely consumed as food, while different plant parts have traditional uses. Raw and ripe mangoes are used in many Indian dishes and preparations.",
+        "description": "Mango is a large evergreen tree producing the well-known mango fruit. Its long leaves and dense canopy are characteristic of the species."
+    },
+    "Marigold": {
+        "scientific": "Tagetes erecta",
+        "uses": "Marigold is widely cultivated as an ornamental plant and has traditional uses. Flowers are also used in garlands, decorations and some traditional preparations.",
+        "description": "Marigold is a flowering plant recognized by its bright yellow or orange flower heads. It is commonly grown in gardens and cultivated for decorative purposes."
+    },
+    "Mint": {
+        "scientific": "Mentha",
+        "uses": "Mint is widely used as a culinary herb and aromatic plant. Fresh or dried leaves are commonly added to drinks, chutneys, salads and other foods.",
+        "description": "Mint is a group of aromatic plants with strongly scented leaves and square stems. It grows readily in moist soil and is widely cultivated."
+    },
+    "Neem": {
+        "scientific": "Azadirachta indica",
+        "uses": "Neem has a long history of traditional use in Ayurvedic and herbal practices. Different plant parts are used in traditional preparations and household applications.",
+        "description": "Neem is a tropical evergreen tree commonly found throughout South Asia. It has compound leaves, small white flowers and bitter fruits."
+    },
+    "Nelavembu": {
+        "scientific": "Andrographis paniculata",
+        "uses": "Traditionally used in Ayurvedic and other herbal practices. Its bitter aerial parts are used in some traditional herbal preparations.",
+        "description": "Nelavembu is a small herbaceous plant with narrow leaves and an upright branching stem. It is commonly found in warm regions."
+    },
+    "Nerale": {
+        "scientific": "Syzygium cumini",
+        "uses": "The fruit is widely consumed and different plant parts have traditional uses. The ripe fruit is commonly eaten fresh or used in drinks and preserves.",
+        "description": "Nerale, or Indian blackberry, is a tropical evergreen tree producing dark purple fruits. The fruits have a deep color and a sweet-to-astringent taste."
+    },
+    "Nooni": {
+        "scientific": "Morinda citrifolia",
+        "uses": "Noni has a long history of traditional herbal use in several regions. Traditional use does not establish that it can treat a medical condition.",
+        "description": "Noni is a tropical plant producing a distinctive pale fruit with a strong odor when ripe. It has broad green leaves and grows well in warm climates."
+    },
+    "Onion": {
+        "scientific": "Allium cepa",
+        "uses": "Onion is widely consumed as food and has traditional culinary uses. It is used in a wide range of dishes, pickles and sauces.",
+        "description": "Onion is a bulb-forming plant widely cultivated as a vegetable. It has hollow green leaves and a strong aroma when the bulb is cut."
+    },
+    "Padri": {
+        "scientific": "Radermachera xylocarpa",
+        "uses": "The supplied data describes Padri as having regional traditional uses. Specific medicinal claims should be verified against a reliable botanical or medicinal source before use.",
+        "description": "Padri is a tree species included in the medicinal-leaf dataset. It is a woody plant with leaves characteristic of its tree growth habit."
+    },
+    "Palak(Spinach)": {
+        "scientific": "Spinacia oleracea",
+        "uses": "Spinach is widely consumed as a leafy vegetable. It is commonly cooked in curries, soups and other dishes.",
+        "description": "Spinach is a leafy green vegetable with soft green leaves and a short growing cycle. It is commonly cultivated in home gardens and farms."
+    },
+    "Papaya": {
+        "scientific": "Carica papaya",
+        "uses": "Papaya fruit is widely consumed as food and different plant parts have traditional uses. Ripe fruit is commonly eaten fresh, while unripe fruit is used in cooking.",
+        "description": "Papaya is a tropical plant with large leaves and soft edible fruit. The plant can grow quickly in warm climates and produces fruit throughout suitable seasons."
+    },
+    "Parijatha": {
+        "scientific": "Nyctanthes arbor-tristis",
+        "uses": "Traditionally used in Indian herbal practices. The flowers and other plant parts have also been used in regional cultural and traditional preparations.",
+        "description": "Parijatha is a flowering tree known for its fragrant white flowers that open at night. Its flowers have orange centers and are commonly collected for cultural use."
+    },
+    "Pea": {
+        "scientific": "Pisum",
+        "uses": "Peas are widely consumed as food and provide dietary nutrients. Fresh or dried peas are used in many regional dishes.",
+        "description": "Pea is a leguminous plant producing edible pods and seeds. It is commonly grown as a cool-season vegetable crop."
+    },
+    "Pepper": {
+        "scientific": "Piper nigrum",
+        "uses": "Black pepper is widely used as a spice and has traditional culinary uses. It is commonly added to curries, soups, spice blends and beverages.",
+        "description": "Black pepper is a climbing vine producing clusters of small pepper berries. The berries turn dark after processing and drying."
+    },
+    "Pomoegranate": {
+        "scientific": "Punica granatum",
+        "uses": "Pomegranate fruit is widely consumed as food and has traditional uses. The arils and juice are commonly used fresh or in food preparations.",
+        "description": "Pomegranate is a shrub or small tree producing round fruits filled with edible arils. The fruit has a tough outer skin and juicy seeds."
+    },
+    "Pumpkin": {
+        "scientific": "Cucurbita moschata",
+        "uses": "Pumpkin is widely consumed as food and its seeds are also used as food. The flesh is commonly cooked in curries, soups and other dishes.",
+        "description": "Pumpkin is a creeping or climbing plant with large leaves and large fruits. The fruit can vary in shape, size and color depending on the variety."
+    },
+    "Raddish": {
+        "scientific": "Raphanus sativus",
+        "uses": "Radish is widely consumed as a vegetable. The roots are commonly eaten raw, cooked, pickled or added to curries and salads.",
+        "description": "Radish is a fast-growing root vegetable with leafy foliage and edible roots. Root color and shape vary among cultivated varieties."
+    },
+    "Rose": {
+        "scientific": "Rosa",
+        "uses": "Rose is widely cultivated for flowers and fragrance and has traditional applications. Rose petals are also used in some foods, drinks and cosmetic preparations.",
+        "description": "Rose refers to flowering plants known for their fragrant and colorful flowers. Many rose varieties are grown in gardens for ornamental and cultural purposes."
+    },
+    "Sampige": {
+        "scientific": "Magnolia champaca",
+        "uses": "Traditionally valued for its fragrant flowers and cultural uses. Flowers are used in garlands, worship and fragrance-related preparations.",
+        "description": "Sampige is a flowering tree known for its strongly fragrant yellow-orange flowers. It grows well in warm climates and is valued for its fragrance."
+    },
+    "Sapota": {
+        "scientific": "Manilkara zapota",
+        "uses": "Sapota fruit is widely consumed as food. It is commonly eaten fresh or used in shakes, desserts and other food preparations.",
+        "description": "Sapota is a tropical evergreen tree producing sweet brown fruits. The fruits have soft brown flesh and a characteristic caramel-like flavor."
+    },
+    "Seethaashoka": {
+        "scientific": "Not specified in the dataset source",
+        "uses": "The supplied dataset source does not document specific medicinal uses for this class. Its botanical identity and regional uses should be verified before adding species-specific health information.",
+        "description": "Seethaashoka is one of the plant classes included in the medicinal-leaf dataset. The dataset source does not provide enough information to confidently identify its botanical species."
+    },
+    "Seethapala": {
+        "scientific": "Annona reticulata",
+        "uses": "The fruit is consumed as food and the plant has traditional uses. Ripe fruit is commonly eaten fresh or used in drinks and desserts.",
+        "description": "Seethapala, or custard apple, is a tropical fruit tree producing sweet segmented fruits. The tree has broad leaves and a rounded canopy."
+    },
+    "Spinach1": {
+        "scientific": "Spinacia oleracea",
+        "uses": "Spinach is widely consumed as a leafy vegetable. It is commonly cooked in curries, soups, stir-fries and other dishes.",
+        "description": "Spinach is a leafy green vegetable with soft green leaves and a short growing cycle. This dataset class represents a spinach variety or duplicate class label."
+    },
+    "Tamarind": {
+        "scientific": "Tamarindus indica",
+        "uses": "Tamarind is widely used as food, seasoning and in traditional preparations. The sour pulp is commonly used in curries, chutneys, drinks and sauces.",
+        "description": "Tamarind is a large tropical tree producing brown pods containing sour edible pulp. Its compound leaves are small and delicate."
+    },
+    "Taro": {
+        "scientific": "Colocasia esculenta",
+        "uses": "Taro is widely consumed as a cooked food crop. The leaves and corms are used in different regional cuisines after appropriate preparation.",
+        "description": "Taro is a tropical plant with large heart-shaped leaves and edible underground corms. The corms must be properly cooked before eating."
+    },
+    "Tecoma": {
+        "scientific": "Tecoma stans",
+        "uses": "Traditionally used in some herbal practices and widely grown as an ornamental plant. Specific medicinal use should be verified before use.",
+        "description": "Tecoma is a flowering shrub or small tree with bright yellow flowers. It is commonly grown as an ornamental plant in warm regions."
+    },
+    "Thumbe": {
+        "scientific": "Leucas aspera",
+        "uses": "Traditionally used in various Indian herbal practices. Different parts of the plant have been used in regional traditional preparations.",
+        "description": "Thumbe is a small herbaceous plant with white flowers arranged around its stems. It commonly grows in open areas and warm regions."
+    },
+    "Tomato": {
+        "scientific": "Solanum lycopersicum",
+        "uses": "Tomato is widely consumed as food and is an important culinary crop. The fruit is used fresh, cooked, dried and in sauces.",
+        "description": "Tomato is a cultivated plant producing edible red, orange or yellow fruits. It is widely grown in gardens and farms."
+    },
+    "Tulsi": {
+        "scientific": "Ocimum tenuiflorum",
+        "uses": "Traditionally used in Ayurvedic and herbal practices. The leaves are also commonly used in traditional drinks and household preparations.",
+        "description": "Tulsi is an aromatic plant widely grown in India. It has fragrant leaves and small flowers and is commonly cultivated around homes and temples."
+    },
+    "Turmeric": {
+        "scientific": "Curcuma longa",
+        "uses": "Turmeric rhizomes are widely used as a spice and in traditional preparations. Turmeric is a common ingredient in Indian cooking and food products.",
+        "description": "Turmeric is a perennial herb whose underground rhizome has a distinctive yellow-orange color. The rhizome is dried or used fresh in cooking."
+    }
+}
