@@ -452,7 +452,7 @@ async function analyzePlant() {
 
         const response =
     await fetch(
-        "https://10.195.89.120:5000/predict",
+        "https://medplantai.onrender.com/predict",
         {
             method: "POST",
             body: formData
